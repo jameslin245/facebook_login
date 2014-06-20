@@ -4,8 +4,13 @@
 	require '../src/facebook.php';
 
 	$facebook = new Facebook(array(
+<<<<<<< HEAD
 	'appId'  => 'appId',
 	'secret' => 'secret',
+=======
+	'appId'  => 'your_appId',
+	'secret' => 'your_secret',
+>>>>>>> parent of e15388c... Revert "Revert "Revert "facebook login"""
 	));
 	if($_GET['urls'] == 'logout' && $_GET['code'] == ''){
 		unset($user);
